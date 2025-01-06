@@ -44,3 +44,22 @@ This project demonstrates the use of a linear regression model to predict insura
 
 ## Project Structure
 
+```
+├── app.py                 # Main Flask application file
+├── requirements.txt       # Python dependencies
+├── static/               # Static files directory
+│   ├── css/             # CSS stylesheets
+│   ├── js/              # JavaScript files
+│   └── images/          # Image files
+├── templates/           # HTML templates
+├── models/             # Directory for saved ML models
+│   └── linear_regression_model_multiple.joblib
+├── .gitignore          # Git ignore file
+├── LICENSE             # License file
+└── README.md           # Project documentation
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
