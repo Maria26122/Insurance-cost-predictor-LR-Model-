@@ -10,14 +10,21 @@ This project demonstrates the use of a linear regression model to predict insura
 
 
 
+
 ![alt text](image.png)
+
+
+
+
+
+
 
 ## Installation
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/yourusername/Insurance-cost-predictor-LR-Model-.git
+    cd Insurance-cost-predictor-LR-Model-
     ```
 
 2. Create a virtual environment and activate it:
@@ -45,18 +52,13 @@ This project demonstrates the use of a linear regression model to predict insura
 ## Project Structure
 
 ```
+Insurance-cost-predictor-LR-Model-/
 ├── app.py                 # Main Flask application file
-├── requirements.txt       # Python dependencies
-├── static/               # Static files directory
-│   ├── css/             # CSS stylesheets
-│   ├── js/              # JavaScript files
-│   └── images/          # Image files
-├── templates/           # HTML templates
-├── models/             # Directory for saved ML models
-│   └── linear_regression_model_multiple.joblib
-├── .gitignore          # Git ignore file
-├── LICENSE             # License file
-└── README.md           # Project documentation
+├── templates/            # HTML templates
+│   └── index.html       # Main page template
+├── .gitignore           # Git ignore file
+├── LICENSE              # License file
+└── README.md            # Project documentation
 ```
 
 ## License

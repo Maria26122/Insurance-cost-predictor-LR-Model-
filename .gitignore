@@ -1,27 +1,50 @@
-# Ignore Python bytecode files
-*.pyc
-*.pyo
-__pycache__/
-
-# Ignore virtual environment directories
+# Python virtual environment
 venv/
 env/
+ENV/
 
-# Ignore environment variable files
-.env
+# Python byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Ignore build directories
-build/
+# Distribution / packaging
 dist/
+build/
 *.egg-info/
 
-# Ignore IDE specific files
-.vscode/
+# IDE specific files
 .idea/
+.vscode/
+*.swp
+*.swo
 
-# Ignore log files
-*.log
+# Environment variables
+.env
+.env.local
 
-# Ignore OS generated files
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files (optional - remove if you want to version control your models)
+*.joblib
+*.pkl
+*.h5
+
+# System files
 .DS_Store
 Thumbs.db
+
+# Log files
+*.log
+
+# Database files
+*.db
+*.sqlite3
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
