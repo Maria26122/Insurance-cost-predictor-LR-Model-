@@ -23,7 +23,7 @@ This project demonstrates the use of a linear regression model to predict insura
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Insurance-cost-predictor-LR-Model-.git
+    git clone https://github.com/Maria26122/Insurance-cost-predictor-LR-Model-.git
     cd Insurance-cost-predictor-LR-Model-
     ```
 
